@@ -1,0 +1,16 @@
+langchain
+langchain-community
+langchain-core
+langchain-mistralai
+langchain-huggingface
+sentence-transformers
+transformers
+chromadb
+pypdf
+faiss-cpu
+torch
+numpy
+python-dotenv
+opencv-python
+PyWavelets
+gradio  

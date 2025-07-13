@@ -42,9 +42,8 @@ pip install -r requirements.txt
 
 3. Add Your API Key
 Create a .env file:
-```bash
 MISTRAL_API_KEY=your_actual_key_here
-```
+
 4. Run the App
 python app.py
 Then open the Gradio link in your browser.

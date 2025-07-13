@@ -34,7 +34,7 @@ FairyTaleChatbot/
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/hetvis-pro/fairy-tale-chatbot.git
+git clone https://github.com/hetvis-pro/FairyTaleChatbot.git
 cd pdf-chatbot
 
 # 2. Install dependencies

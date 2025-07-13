@@ -44,3 +44,8 @@ pip install -r requirements.txt
 jupyter notebook app.ipynb
 
 ```
+
+🙋‍♀️ Author
+Hetvi
+📧 hetvis.pro@gmail.com
+🔗 https://www.linkedin.com/in/hetvi-sodha-pro/

@@ -1,6 +1,19 @@
-venv/
+# Python
 __pycache__/
-.ipynb_checkpoints/
 *.pyc
+*.pyo
+*.pyd
+
+# Environments
+env/
+venv/
+ENV/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# System
 .DS_Store
+
+# Secrets
 .env

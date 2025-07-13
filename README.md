@@ -1,46 +1,56 @@
-# 📄 PDF Chatbot with LangChain + Mistral
+# 🧚‍♀️ Fairy Tale PDF Chatbot using LangChain + Mistral
 
-This is an NLP project that builds a chatbot capable of answering questions from PDF documents using **LangChain**, **Mistral**, and **Chroma** vector store.
+This is an interactive chatbot that lets you ask questions about classic **fairy tales** by reading and understanding PDF documents! Built using **LangChain**, **Mistral**, **Chroma**, and **Gradio**.
 
-## 🚀 Features
+## ✨ Features
 
-- Upload and read PDFs
-- Extract text using `PyPDF`
-- Convert text to embeddings (Sentence Transformers)
-- Create vector store with Chroma
-- Ask questions through a simple UI
-- Use Mistral / HuggingFace models via LangChain
+- 📄 Read and embed fairy tale PDFs
+- 💬 Ask questions via chat interface
+- 🧠 Uses conversational memory to keep context
+- ⚙️ Powered by Mistral LLM + LangChain RAG pipeline
+- 🎨 UI built using Gradio with a magical theme
 
-## 🛠️ Tech Stack
-
-- Python
-- LangChain + Mistral
-- Sentence Transformers
-- Chroma
-- Gradio
-- PyPDF
-
-## 🗂️ Folder Structure
+## 📁 Project Structure
 
 FairyTaleChatbot/
-├── index.ipynb # All code
+├── app.py # Main application logic
 ├── requirements.txt # Python dependencies
-├── README.md # Project guide
-├── documents/ # Sample PDFs
-├── images/ # Background images
-└── .gitignore
+├── .env # API keys (do NOT push this)
+├── README.md # This file
+├── documents/ # PDF documents (fairy tales)
+├── images/ # Background images (e.g., bg.gif)
 
-## 🧪 Run the Project
+🧠 Tech Stack
+
+LangChain
+Mistral
+Chroma
+HuggingFace Embeddings
+Gradio
+Python 3.10+
+
+## 🚀 How to Run
 
 ```bash
-# 1. Clone the repo
-git clone https://github.com/hetvis-pro/pdf-chatbot.git
-cd pdf-chatbot
 
-# 2. Install dependencies
+1. Clone the Repository
+git clone https://github.com/hetvis-pro/FairyTaleChatbot.git
+cd FairyTaleChatbot
+
+2. Install Requirements
 pip install -r requirements.txt
 
-# 3. Run the notebook
-jupyter notebook app.ipynb
+3. Add Your API Key
+Create a .env file:
+MISTRAL_API_KEY=your_actual_key_here
+
+4. Run the App
+python app.py
+Then open the Gradio link in your browser.
 
 ```
+
+🙋‍♀️ Author
+Hetvi
+📧 hetvis.pro@gmail.com
+🔗 https://www.linkedin.com/in/hetvi-sodha-pro/
